@@ -16,7 +16,6 @@ header{
     background-color: #3750b3;
     color: white;
     display: flex;
-    justify-content: flex-end;
     justify-content: space-between;
 }
 
