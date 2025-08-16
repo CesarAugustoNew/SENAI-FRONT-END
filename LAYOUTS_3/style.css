@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: inter;
+}
+
+.header{
+    display: flex;
+    width: 100%;
+    height: 70px;
+    background-color: #3750B3;
+    color: white;
+    justify-content: flex-end;
+    justify-content: space-between;
+}
+
+main{
+    display: flex;
+}
+
+.lista{
+    display: flex;
+    padding: 10px;
+    list-style: none;
+}
+
+.lista_item{
+    padding: 15px;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+h1{
+   margin-left: 50px;
+   margin-top: 15px;
+   font-weight: 400;
+   font-size: 30px;
+}
+
+a{
+    text-decoration:none;
+    color: white ;
+}
+
+a:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+.titulo{
+    font-weight: 400;
+    font-size: 64px;
+}
+
+p{
+    font-weight: 400;
+    font-size: 32px;
+    margin-left: 50px;
+}
+
+.img_herois{
+    width: 793px;
+    height: 779px;
+    background-image: url(assets/imgs/Rectangle\ 3\ \(1\).png);
+    margin: 50px;
+}
+
+.conteudo{
+    margin: 25px;
+}
